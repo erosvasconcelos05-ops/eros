@@ -40,7 +40,7 @@
       let msg = message.toLowerCase();
 
       if (msg.includes("oi") || msg.includes("olá")) {
-        resposta = "Olá! Eu sou o assistente virtual do Departamento Pessoal do Sesc e Senac e estou pronto para ajudar.";
+        resposta = "Olá! Chocoliudinha.";
       } else if (msg.includes("nome")) {
         resposta = "Eu sou um chatbot de demonstração 🤖";
       } else if (msg.includes("hora") || msg.includes("horas") || msg.includes("que horas são")) {
