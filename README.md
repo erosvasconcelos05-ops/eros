@@ -41,8 +41,8 @@
 
       if (msg.includes("oi") || msg.includes("olá")) {
         resposta = "Olá! Chocoliudinha.";
-      } else if (msg.includes("nome")) {
-        resposta = "Eu sou um chatbot de demonstração 🤖";
+      } else if (msg.includes("te amo")) {
+        resposta = "Eu te amo Chocoliutes";
       } else if (msg.includes("hora") || msg.includes("horas") || msg.includes("que horas são")) {
         const now = new Date();
         const options = { hour: '2-digit', minute: '2-digit' };
