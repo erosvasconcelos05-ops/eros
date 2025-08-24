@@ -7,7 +7,7 @@ function sendMessage() {
   document.getElementById("userInput").value = "";
 
   // 🔹 Envia a pergunta para o n8n
-  fetch("https://SEU-ENDERECO-N8N/webhook/auxilio-saude", {
+  fetch("https://eros05.app.n8n.cloud/webhook-test/auxilio-saude", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ pergunta: input })
